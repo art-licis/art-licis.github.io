@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  font: 14px helvetica, arial, clean, sans-serif;
+  text-align: center;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #B5B5BF;
+}
+
+ul.posts {
+  list-style-type: none;
+}
+
+ul.posts span {
+  color: #AAA;
+  font-family: "Courier New", monospace;
+  font-size: 90%;
+}
+
+ul.posts div {
+  color: #000;
+  font-size: 80%;
+  font-style: italic;
+  padding-left: 2em;
+}
+
+ul.posts div p {
+  margin-top: 0;
+}
+
+.site {
+  font-size: 110%;
+  text-align: justify;
+  width: 46em;
+  margin: 2em auto 2em auto;
+  line-height: 1.5em;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+.site .title a {
+  color: black;
+  font-size: 125%;
+  text-decoration: none;
+}
+
+.site .title a:hover {
+  color: black;
+}
+
+.site .title a.extra:hover {
+  color: black;
+}
+
+.site .title .jvm {
+  color: #E76F00;
+}
+
+.site .title .today {
+  color: white;
+  background: #E76F00;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+.site .title .subtitle {
+  color: black;
+  font-size: 75%;
+}
+
+.site .meta {
+  font-family: "Courier New", monospace;
+  color: #AAA;
+}
+
+.site .footer {
+  font-size: 80%;
+  color: #444;
+  border-top: 2px solid #F0F0F0;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.site .footer .contact {
+  float: left;
+  margin-right: 2.5em;
+}
+
+.site .footer .contact a {
+  color: #E76F00;
+}
+
+.highlight {
+  border: 1px solid #F0F0F0;
+  font-size: 80%;
+  line-height: 1.2em;
+}
+
+.highlight {
+  border: 1px solid #F0F0F0;
+  font-size: 80%;
+  line-height: 1.2em;
+}
+
+.highlight .gutter {
+  border: 1px solid #F0F0F0;
+  padding-right: 0.2em;
+}
+
+.highlight .code {
+  padding-left: 0.2em;
+}

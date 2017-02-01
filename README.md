@@ -1,0 +1,1 @@
+**JVM.today** - Java technology blog by Arturs Licis.
