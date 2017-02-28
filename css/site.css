@@ -116,10 +116,16 @@ ul.posts div p {
   color: #E76F00;
 }
 
+.site h1, h2, h3, h4, h5, h6 {
+  margin: 0.5em 0;
+}
+
 .highlight {
+  background: #FFFDFA;
   border: 1px solid #F0F0F0;
   font-size: 80%;
   line-height: 1.2em;
+  margin: 0.5em 0;
 }
 
 .highlight {
